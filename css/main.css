@@ -1,25 +1,32 @@
 header {
     background-color: #fcfcfd;
-   position:-webkit-sticky;
-   display:flex;
+   position:fixed;
+   display:block;
    width:100%;
-   height: 150px; 
+   height:150px; 
+   margin-top: -1%;
+}
+
+footer{
+    align-content: center;
+    color:red;
+    margin-block-end: 5px;
+    font-size:large;
 }
 
 .logo{
-    display:flex;
+display:flex;
 margin-left: 50px ;
 margin-top: 30px;
-padding: 0%;
-width:100%;
+padding: 5px;
+width: 100px;
 height: 100px;
-
 
 }
 .main-menu{
     display:flex;
-    margin-left: 100px;
-    margin-top: 25px;
+    margin-left: 300px;
+    margin-top: -100px;
    
 }
 .main-menu ul{
@@ -39,18 +46,17 @@ height: 100px;
 .main-menu ul li a {
     text-decoration: none;
     color:rgb(246, 5, 5) 
-  
 }
 .main-menu ul li:hover{
-    background-color: rgb(248, 242, 242);
-    color:rgb(252, 3, 3);
-    border-radius: 3px;
+    background-color: rgb(199, 195, 195);
+    border-radius: 15px;
     transition-duration: .50s;
     width: 250px;
 } 
-.main-menu ul li:hover:active{
-    color:red;
-    background-color: #fcfcfd;
+.main-menu ul li::after{
+    color:rgb(249, 245, 245);
+    background-color: red;
+
 }
 .main-menu .fa{
     margin: 10px;
@@ -58,15 +64,14 @@ height: 100px;
 }
 
 .search{
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 20px;
+    margin-left: 150px;
     width: 400px;
     height: 50px;
     padding: 10px;
-    background-color: rgb(251, 248, 245);
-    
+    background-color: rgb(222, 220, 216);
     border-radius: 20px;
-    align-items: center;
+    
 }
 .search-bar{
     width: 350px;
@@ -95,15 +100,24 @@ height: 100px;
 .search-bar input .fa-magnifying-glass{
     width: 200px;
     height: 200px;
-    border-color: black;
     cursor: pointer;
 }
 .profile{
-    margin-top: 35px;
-    display:flex ;
-    margin-left: 150px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 .profile i.fa-user{
     color: rgb(252, 5, 5);
 
+}
+.welcome {
+    padding-top: 500px;
+display: contents;
+align-items: center;
+background-color:;
+align-content: center;
+}
+.skit{
+    margin-top:;
+    background-color: azure;
 }
